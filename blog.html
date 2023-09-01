@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHero Tube</title>
+    <!-- DaisyUI and TailwindCSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="mx-auto w-10/12 px-10 py-5 rounded-md my-20 bg-slate-950 text-white text-justify"
+    >
+      <button
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      >
+        <a href="./index.html" class="text-white no-underline"
+          >Click Here to go Main Page</a
+        >
+      </button>
+      <h3 class="text-2xl font-bold mt-10 mb-3 rounded-lg">
+        <span class="bg-orange-600 text-white p-2 rounded-lg">#01</span>
+        scope of <span class="text-orange-600">var</span>,
+        <span class="text-orange-600">let</span>, and
+        <span class="text-orange-600">const</span>
+      </h3>
+      <div class="mx-auto bg-zinc-900 rounded-lg p-5">
+        <strong class="border-b-2 border-orange-600">var</strong>
+
+        <ul>
+          <li>Function scope.</li>
+          <li>Hoisted.</li>
+          <li>Allows redeclaration and reassignment.</li>
+        </ul>
+        <strong class="border-b-2 border-orange-600">let</strong>
+
+        <ul>
+          <li>Block scope.</li>
+          <li>Not hoisted.</li>
+          <li>Allows reassignment but not redeclaration</li>
+        </ul>
+        <strong class="border-b-2 border-orange-600">const</strong>
+
+        <ul>
+          <li>Function scope.</li>
+          <li>Must have a value when declared.</li>
+          <li>
+            Cannot be reassigned (for primitives), but allows modifications for
+            objects and arrays.
+          </li>
+        </ul>
+      </div>
+
+      <h3 class="text-2xl font-bold mt-10 mb-3 rounded-lg">
+        <span class="bg-orange-600 text-white p-2 rounded-lg">#02</span>
+
+        use cases of <span class="text-orange-600">null</span> and
+        <span class="text-orange-600">undefined</span>
+      </h3>
+      <div class="mx-auto bg-zinc-900 rounded-lg p-5">
+        <strong class="border-b-2 border-orange-600">null</strong>
+        <p>Represents intentional absence or emptiness</p>
+
+        <strong class="border-b-2 border-orange-600">undefined</strong>
+        <p>Represents the absence of a value when one is expected</p>
+      </div>
+
+      <h3 class="text-2xl font-bold mt-10 mb-3 rounded-lg">
+        <span class="bg-orange-600 text-white p-2 rounded-lg">#03</span>
+
+        What do you mean by
+        <span class="text-orange-600">REST</span> API?
+      </h3>
+      <div class="mx-auto bg-zinc-900 rounded-lg p-5">
+        <p>
+          a REST API (Representational State Transfer Application Programming
+          Interface) is a standardized way for software applications to
+          communicate over the internet. It uses HTTP methods (like GET, POST,
+          PUT, and DELETE) to access and manipulate resources (such as data) on
+          a server. REST APIs are known for their simplicity, scalability, and
+          use of URLs to identify resources. They are widely used for building
+          web services and enabling interactions between different software
+          systems.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
